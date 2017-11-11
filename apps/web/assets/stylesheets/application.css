@@ -1,0 +1,95 @@
+.container {
+  color: #222222 !important;
+  background-color: #FFFFF9 !important;
+}
+
+body {
+  background-color: #FFFFF9 !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  clear: left;
+  background-color: #EEB631;
+  margin-bottom: 3.2rem !important;
+}
+
+.row-fluid {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row-fluid .span4 {
+    width: 27%;
+    margin: 0 2% 0 2%;
+}
+
+.row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    min-height: 30px;
+    margin-left: 2.5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1200px)
+.row-fluid .thumbnails {
+    margin-left: 0;
+}
+
+.row-fluid .thumbnails {
+    margin-left: 0;
+}
+
+@media (min-width: 1200px)
+.thumbnails {
+    margin-left: -30px;
+}
+
+.thumbnails {
+    margin-left: -20px;
+    list-style: none;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.picture {
+  width: 25%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.jumbotron {
+  background-color: #FFFFF9;
+}
+
+.title {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.jumbotron p {
+  text-align: center;
+}

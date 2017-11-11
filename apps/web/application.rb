@@ -162,7 +162,7 @@ module Web
         # Specify sources for assets
         #
         sources << [
-          'assets'
+          'assets',
         ]
       end
 
@@ -239,22 +239,27 @@ module Web
       #
       #  * https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives
       #
-      security.content_security_policy %{
+      security.content_security_policy %(
         form-action 'self';
         frame-ancestors 'self';
         base-uri 'self';
         default-src 'none';
-        script-src 'self';
+        script-src 'self' 'unsafe-inline' \
+        https://cdnjs.cloudflare.com/ajax/libs/jquery/ \
+        https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/ \
+        https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/ \
+        https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/;
         connect-src 'self';
-        img-src 'self' https: data:;
+        img-src 'self' https: data: https://res.cloudinary.com/rodrigopk/image/upload/;
         style-src 'self' 'unsafe-inline' https:;
-        font-src 'self';
+        font-src 'self' \
+        https://maxcdn.bootstrapcdn.com/ https://fonts.gstatic.com;
         object-src 'none';
         plugin-types application/pdf;
         child-src 'self';
         frame-src 'self';
         media-src 'self'
-      }
+      )
 
       ##
       # FRAMEWORKS
