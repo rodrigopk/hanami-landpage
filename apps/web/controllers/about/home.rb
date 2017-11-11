@@ -6,8 +6,7 @@ module Web
       class Home
         include Web::Action
 
-        def call(_)
-        end
+        def call(_); end
       end
     end
   end

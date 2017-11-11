@@ -1,8 +1,12 @@
+# frozen_string_literal: true
+
 require_relative '../../../spec_helper'
 
 describe Web::Views::About::Home do
   let(:exposures) { Hash[foo: 'bar'] }
-  let(:template)  { Hanami::View::Template.new('apps/web/templates/about/home.html.erb') }
+  let(:template)  do
+    Hanami::View::Template.new('apps/web/templates/about/home.html.erb')
+  end
   let(:view)      { Web::Views::About::Home.new(template, exposures) }
   let(:rendered)  { view.render }
 

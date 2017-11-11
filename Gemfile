@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'rake'
-gem 'hanami',       '~> 1.1'
+gem 'hanami', '~> 1.1'
 gem 'hanami-model', '~> 1.1'
 gem 'pg'
+gem 'rake'
 
 # Translations
 gem 'i18n'
