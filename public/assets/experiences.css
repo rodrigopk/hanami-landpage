@@ -1,0 +1,44 @@
+/* Experiences */
+
+.xp-list {
+  margin-top: 50px;
+}
+
+.xp-list ul {
+  list-style-type: none;
+}
+
+.xp-item {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+.xp-title {
+  color: #EEB631;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.xp-title p {
+  color: #222222;
+  font-size: 18px;
+}
+
+.xp-title h4 {
+  font-size: 24px;
+}
+
+.xp-description {
+  margin-left: 25%;
+  height: 100%;
+}
+
+.xp-description p {
+  font-size: 16px;
+}
+
+.xp-description p b {
+  font-size: 18px;
+}

@@ -12,3 +12,26 @@ zu:
           experience developing desktop and embedded applications. Most recently I
           have been working with Hanami/Ruby development, focusing on building escalable
           API’s and designing backend structure.'
+        experiences:
+          header: 'Experiences'
+          link: 'company website'
+          ifactory:
+            title: 'Fullstack Developer'
+            period: 'Jan 2017 - Jul 2017'
+            name: 'iFactory Solutions'
+            description: 'As a fullstack developer, I implement integration patterns using WSO2 ESB platform as a tool to connect different services. I also worked with frontend development, using html, css and angularJS.'
+          index:
+            title: 'Ruby on Rails Backend Developer'
+            period: 'Jul 2016 - Jan 2017'
+            name: 'Index Digital'
+            description: 'As a RoR backend developer, I design, develop and maintain APIs that feed our clients applications, both web and mobile. I also worked on the development of the frontend web aplication, using angularJS.'
+          bepid:
+            title: 'Software Developer Trainee'
+            period: 'Jun 2014 - Dec 2015'
+            name: 'BEPiD - Brazilian Education Program iOS Development'
+            description: 'A program aimed towards iOS development,using both Objective-C and Swift as development languages.We also received various lectures on entrepreneurship,design,project management and presentation skills. During the program, I worked on a total of 5 apps,of which 3 where published on the Appstore.'
+          lsbd:
+            title: 'Software Developer Trainee'
+            period: 'Jan 2013 - Jan 2014'
+            name: 'LSBD - UFC'
+            description: 'As a software trainee, I worked on a project to develop hardware diagnosing and monitoring tool, running on windows and various linux distributions. We used C++ and the Qt framework to develop the application.'
