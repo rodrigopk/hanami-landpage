@@ -1,0 +1,16 @@
+de:
+  templates:
+    about:
+      home:
+        title: 'Ruby developer'
+        age: '29 Jahre'
+        location: 'München, Deutschland'
+        pitch: 'Ich bin ein Softwareentwickler mit einer Leidenschaft für die Lösung
+          von Problemen und Programmierung als ein Werkzeug, um das Leben der Menschen
+          einfacher zu machen. Ich habe meinen Abschluss aus IFCE - Ceará’s Federal
+          Institute of Technology and Education im 2016 gemacht und arbeite seit zwei
+          Jahren an der Softwareentwicklung für Mobile und Web. Ich habe auch Erfahrung
+          in der Entwicklung von Desktop- und Embedded-Anwendungen. In letzter Zeit
+          habe ich mit der Entwicklung von Hanami / Ruby gearbeitet, wobei ich mich
+          auf das Entwickeln von erweiterbaren APIs und das Design der Backend-Struktur
+          konzentriert habe.'

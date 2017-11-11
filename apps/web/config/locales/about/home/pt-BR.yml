@@ -1,0 +1,14 @@
+pt-BR:
+  templates:
+    about:
+      home:
+        title: 'Desenvolvedor Ruby'
+        age: '29 anos'
+        location: 'Munique, Alemanha'
+        pitch: 'Eu sou um desenvolvedor apaixonado por resolver problemas e em utilizar
+          programação como uma ferramenta para tornar a vida das pessoas mais fácil.
+          Eu me graduei no IFCE - Instituto Federal de Educação, Ciência e Tecnologia
+          do Ceará em 2016, e tenho trabalhado com desenvolvimento de software por
+          dois anos. Eu também tenho experiência em desenvolvimento para desktop e
+          aplicações  embarcadas. Mais recentemente, eu tenho trabalhado com Hanami/Ruby,
+          com foco em construir aplicações escaláveis e planejar estruturas de backend.'

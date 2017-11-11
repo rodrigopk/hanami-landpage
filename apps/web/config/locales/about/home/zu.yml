@@ -5,4 +5,10 @@ zu:
         title: 'Ruby developer'
         age: '29 years'
         location: 'Munich, Germany'
-        pitch: 'I’m a software developer with a passion for solving problems and programming as a tool to make people’s lives easier. I graduated from IFCE - Ceará’s Federal Institute of Technology and Education in 2016, and have been working on software development for mobile and web for two years. I also have some experience developing desktop and embedded applications. Most recently I have been working with Hanami/Ruby development, focusing on building escalable API’s and designing backend structure.'
+        pitch: 'I’m a software developer with a passion for solving problems and programming
+          as a tool to make people’s lives easier. I graduated from IFCE - Ceará’s
+          Federal Institute of Technology and Education in 2016, and have been working
+          on software development for mobile and web for two years. I also have some
+          experience developing desktop and embedded applications. Most recently I
+          have been working with Hanami/Ruby development, focusing on building escalable
+          API’s and designing backend structure.'
