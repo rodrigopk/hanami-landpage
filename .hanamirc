@@ -1,0 +1,4 @@
+project=landpage
+architecture=container
+test=rspec
+template=erb

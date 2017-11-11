@@ -1,0 +1,5 @@
+zu:
+  templates:
+    about:
+      home:
+        hello: 'Hello About!'
