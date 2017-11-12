@@ -1,0 +1,18 @@
+.contact-box {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.social {
+
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social a img{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
