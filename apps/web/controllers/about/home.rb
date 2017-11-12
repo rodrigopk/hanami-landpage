@@ -6,7 +6,17 @@ module Web
       class Home
         include Web::Action
 
-        def call(_); end
+        expose :companies
+
+        def initialize(options = {})
+          @company_helper = options.fetch(:companies_helper) do
+            ::WebContainer.resolve(:companies_helper)
+          end
+        end
+
+        def call(_)
+          @companies = @company_helper.companies
+        end
       end
     end
   end
