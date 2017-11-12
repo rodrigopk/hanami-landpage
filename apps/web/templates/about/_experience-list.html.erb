@@ -1,0 +1,30 @@
+<div class="container">
+  <h1><%= I18n.t('templates.about.home.experiences.header') %></h1>
+  <div class='xp-list'>
+    <ul>
+
+      <% companies.each do |company| %>
+        <li>
+          <div class='xp-item'>
+            <div class='xp-title'>
+              <h4><%= I18n.t("templates.about.home.experiences.#{company['name']}.title") %></h4>
+              <p><%= I18n.t("templates.about.home.experiences.#{company['name']}.period") %></p>
+            </div>
+            <div class='xp-description'>
+              <p>
+                <b><%= I18n.t("templates.about.home.experiences.#{company['name']}.name") %></b>
+              </p>
+              <p><%= I18n.t("templates.about.home.experiences.#{company['name']}.description") %></p>
+              <p>
+                <a href='<%= company['url']%>'>
+                  <%= I18n.t("templates.about.home.experiences.link") %>
+                </a>
+              </p>
+            </div>
+          </div>
+        </li>
+      <% end %>
+
+    </ul>
+  </div>
+</div>
