@@ -1,5 +1,5 @@
 <div class="container">
-  <h1><%= I18n.t('templates.about.home.skills.header') %></h1>
+  <h1><%= I18n.t('templates.about.skills.header') %></h1>
 
   <div class="row-fluid skills-grid">
     <ul class="thumbnails">
@@ -8,7 +8,7 @@
           <div class="thumbnail skill-element">
             <img class="skill-icon" src='<%= skill['icon_url'] %>'/>
             <h3><%= skill['title'] %></h3>
-            <p><%= I18n.t(skill['description']) %></p>
+            <p><%= I18n.t("templates.about.skills.#{skill['name']}.description") %></p>
           </div>
         </li>
       <% end %>

@@ -37,13 +37,18 @@ zu:
           description: 'As a software trainee, I worked on a project to develop hardware diagnosing and monitoring tool, running on windows and various linux distributions. We used C++ and the Qt framework to develop the application.'
       skills:
         header: 'Skills'
-        description:
-          rails: 'I have worked with RoR since version 4.2, mostly using it to create RESTful APIs.'
-          angular: 'I have used angularJS (both v1 and v2) to build client side applications, both professionally and on personal projects.'
-          swift: "I have used Swift to program for iOS devices since it's debut on 2014.I have developed 4 apps using it, during my time on BEPiD and afterit's conclusion."
-          cpp: "I have used C++ to develop desktop applications both professionally and academically, but haven't done it in a while. Not a stranger to scrubbing bits, though."
-          git: "I use git as my version control software for most of my projects, and It's also the one I have used the most professionally. I prefer using it via commandline, for practicality."
-          scrum: 'I have used used scrum for most of the projects I worked with other developers, inprojects with different scopes and teams both large and small.'
+        rails:
+          description: 'I have worked with RoR since version 4.2, mostly using it to create RESTful APIs.'
+        angular:
+          description: 'I have used angularJS (both v1 and v2) to build client side applications, both professionally and on personal projects.'
+        swift:
+          description: "I have used Swift to program for iOS devices since it's debut on 2014.I have developed 4 apps using it, during my time on BEPiD and afterit's conclusion."
+        cpp:
+          description: "I have used C++ to develop desktop applications both professionally and academically, but haven't done it in a while. Not a stranger to scrubbing bits, though."
+        git:
+          description: "I use git as my version control software for most of my projects, and It's also the one I have used the most professionally. I prefer using it via commandline, for practicality."
+        scrum:
+          description: 'I have used used scrum for most of the projects I worked with other developers, inprojects with different scopes and teams both large and small.'
       educations:
         header: 'Education'
         link: 'institution website'
