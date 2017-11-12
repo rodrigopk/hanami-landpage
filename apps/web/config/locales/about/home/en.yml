@@ -12,3 +12,89 @@ en:
           also have some experience developing desktop and embedded applications.
           Most recently I have been working with Hanami / Ruby development, focusing
           on the escalable API''s design and designing backend structure.'
+      experiences:
+        header: 'Experiences'
+        link: 'company website'
+        ifactory:
+          title: 'Fullstack Developer'
+          period: 'Jan 2017 - Jul 2017'
+          name: 'iFactory Solutions'
+          description: 'As a fullstack developer, I implement integration patterns
+            using WSO2 ESB platform as a tool to connect different services. I also
+            worked with frontend development, using html, css and angularJS.'
+        index:
+          title: 'Ruby on Rails Backend Developer'
+          period: 'Jul 2016 - Jan 2017'
+          name: 'Index Digital'
+          description: 'As a RoR backend developer, I design, develop and maintain
+            APIs that feed our customer applications, both web and mobile. I also
+            worked on the development of the frontend web application, using angularJS.'
+        bepid:
+          title: 'Software Developer Trainee'
+          period: 'Jun 2014 - Dec 2015'
+          name: 'BEPiD - Brazilian Education Program iOS Development'
+          description: 'A program aimed at iOS development, using both Objective-C
+            and Swift as development languages.We also received various learning on
+            entrepreneurship, design, project management and presentation skills.
+            During the program, I worked on a total of 5 apps, of which 3 published
+            on the Appstore.'
+        lsbd:
+          title: 'Software Developer Trainee'
+          period: 'Jan 2013 - Jan 2014'
+          name: 'LSBD - UFC'
+          description: 'As a trained software, I worked on a project to develop hardware
+            diagnosing and monitoring tool, running on windows and various linux distributions.
+            We used C ++ and the Qt framework to develop the application.'
+      skills:
+        header: 'Skills'
+        rails:
+          description: 'I have worked with RoR since version 4.2, mostly using it
+            to create RESTful APIs.'
+        angular:
+          description: 'I have used angularJS (both v1 and v2) to build client side
+            applications, both professionally and on personal projects.'
+        swift:
+          description: "I've used Swift to program for iOS devices since it's debut\
+            \ on 2014. I've developed 4 apps using it, during my time on BEPiD and\
+            \ afterit's conclusion."
+        cpp:
+          description: "I have used C ++ to develop desktop applications both professionally\
+            \ and academically, but have not done it in a while. Not a stranger to\
+            \ scrubbing bits, though."
+        git:
+          description: "I use it as my version control software for most of my projects,\
+            \ and it's also the one I've used the most professionally. I prefer to\
+            \ use it via commandline, for practicality."
+        scrum:
+          description: 'I have used used scrum for most of the projects I worked with
+            other developers, inprojects with different scopes and teams both large
+            and small.'
+      educations:
+        header: 'Education'
+        link: 'institution website'
+        ifce:
+          title: 'Engineer''s Degree'
+          field: 'Computer Engineering'
+          period: 'Jan 2012 - Dec 2016'
+      interests:
+        header: 'Interests'
+        programming:
+          title: 'Programming'
+        self-development:
+          title: 'Self Development'
+        cooking:
+          title: 'Cooking'
+        literature:
+          title: 'Literature'
+        martial-arts:
+          title: 'Martial Arts'
+        video-games:
+          title: 'Video Games'
+        traveling:
+          title: 'Traveling'
+        crypto:
+          title: 'Cryptocurrencies'
+        beer:
+          title: 'Beer'
+      contact:
+        header: 'Contact me'
