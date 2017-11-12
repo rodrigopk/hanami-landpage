@@ -6,4 +6,8 @@ class WebContainer
   register :companies_helper do
     Landpage::Companies
   end
+
+  register :skills_helper do
+    Landpage::Skills
+  end
 end
