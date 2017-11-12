@@ -2,6 +2,7 @@
 @import 'educations.css';
 @import 'skills.css';
 @import 'interests.css';
+@import 'contacts.css';
 
 .container {
   color: #222222 !important;

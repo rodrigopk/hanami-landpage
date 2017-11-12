@@ -76,3 +76,5 @@ zu:
           title: 'Cryptocurrencies'
         beer:
           title: 'Beer'
+      contact:
+        header: 'Contact me'
