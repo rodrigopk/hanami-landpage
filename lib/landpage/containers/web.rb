@@ -14,4 +14,8 @@ class WebContainer
   register :educations_helper do
     Landpage::Educations
   end
+
+  register :interests_helper do
+    Landpage::Interests
+  end
 end

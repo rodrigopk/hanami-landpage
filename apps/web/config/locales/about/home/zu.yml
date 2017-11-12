@@ -56,3 +56,23 @@ zu:
           title: 'Engineer’s Degree'
           field: 'Computer Engineering'
           period: 'Jan 2012 - Dec 2016'
+      interests:
+        header: 'Interests'
+        programming:
+          title: 'Programming'
+        self-development:
+          title: 'Self Development'
+        cooking:
+          title: 'Cooking'
+        literature:
+          title: 'Literature'
+        martial-arts:
+          title: 'Martial Arts'
+        video-games:
+          title: 'Video Games'
+        traveling:
+          title: 'Traveling'
+        crypto:
+          title: 'Cryptocurrencies'
+        beer:
+          title: 'Beer'

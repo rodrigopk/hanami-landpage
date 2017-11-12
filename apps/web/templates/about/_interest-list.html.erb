@@ -1,0 +1,16 @@
+<div class="container">
+  <h1><%= I18n.t('templates.about.interests.header') %></h1>
+
+  <div class="row interest-list">
+    <ul>
+      <% interests.each do |interest| %>
+        <li>
+          <div class="interest-item">
+            <img src="<%= interest['icon_url'] %>"/>
+            <p><%= I18n.t("templates.about.interests.#{interest['name']}.title") %></p>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
