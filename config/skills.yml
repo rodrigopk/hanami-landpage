@@ -1,0 +1,19 @@
+---
+  - title: 'Ruby on Rails'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/1/original/rails.png'
+    description: 'I have worked with RoR since version 4.2, mostly using it to create RESTful APIs.'
+  - title: 'AngularJS'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/2/original/angularjs.png'
+    description: 'I have used angularJS (both v1 and v2) to build client side applications, both professionally and on personal projects.'
+  - title: 'Swift'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/3/original/swift.png'
+    description: "I have used Swift to program for iOS devices since it's debut on 2014.I have developed 4 apps using it, during my time on BEPiD and afterit's conclusion."
+  - title: 'C++'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/4/original/cpp.png'
+    description: "I have used C++ to develop desktop applications both professionally and academically, but haven't done it in a while. Not a stranger to scrubbing bits, though."
+  - title: 'Git'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/5/original/git.png'
+    description: "I use git as my version control software for most of my projects, and It's also the one I have used the most professionally. I prefer using it via commandline, for practicality."
+  - title: 'Scrum'
+    icon_url: 'https://res.cloudinary.com/rodrigopk/image/upload/v1/6/original/scrum.png'
+    description: 'I have used used scrum for most of the projects I worked with other developers, inprojects with different scopes and teams both large and small.'

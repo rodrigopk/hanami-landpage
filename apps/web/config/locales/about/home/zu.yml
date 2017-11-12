@@ -35,3 +35,5 @@ zu:
             period: 'Jan 2013 - Jan 2014'
             name: 'LSBD - UFC'
             description: 'As a software trainee, I worked on a project to develop hardware diagnosing and monitoring tool, running on windows and various linux distributions. We used C++ and the Qt framework to develop the application.'
+        skills:
+          header: 'Skills'

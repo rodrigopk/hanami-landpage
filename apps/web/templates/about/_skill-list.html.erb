@@ -1,0 +1,19 @@
+<div class="container">
+  <h1><%= I18n.t('templates.about.home.skills.header') %></h1>
+
+  <div class="row-fluid skills-grid">
+    <ul class="thumbnails">
+      <% skills.each do |skill| %>
+        <li class="span4">
+          <div class="thumbnail skill-element">
+            <img class="skill-icon" src='<%= skill['icon_url'] %>'/>
+            <h3><%= skill['title'] %></h3>
+            <p><%= skill['description'] %></p>
+          </div>
+        </li>
+      <% end %>
+
+    </ul>
+  </div>
+
+</div>

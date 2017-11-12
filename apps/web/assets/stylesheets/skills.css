@@ -1,0 +1,11 @@
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.thumbnail, .skills-grid {
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+}
