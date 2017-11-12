@@ -10,4 +10,8 @@ class WebContainer
   register :skills_helper do
     Landpage::Skills
   end
+
+  register :educations_helper do
+    Landpage::Educations
+  end
 end

@@ -8,7 +8,7 @@
           <div class="thumbnail skill-element">
             <img class="skill-icon" src='<%= skill['icon_url'] %>'/>
             <h3><%= skill['title'] %></h3>
-            <p><%= skill['description'] %></p>
+            <p><%= I18n.t(skill['description']) %></p>
           </div>
         </li>
       <% end %>

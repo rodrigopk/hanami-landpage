@@ -1,0 +1,32 @@
+<div class="container">
+  <h1><%= I18n.t('templates.about.educations.header') %></h1>
+
+  <div class="row-fluid skills-grid">
+    <ul class="thumbnails">
+      <% educations.each do |education| %>
+
+        <li>
+          <div class="edu-item">
+            <div class="edu-title">
+              <h4> <%= education['institution'] %> </h4>
+              <p>
+                <%= I18n.t("templates.about.educations.#{education['name']}.period") %>
+              </p>
+            </div>
+            <div class="edu-description">
+              <p><b> <%= I18n.t("templates.about.educations.#{education['name']}.title") %></b></p>
+              <p> <%= I18n.t("templates.about.educations.#{education['name']}.field") %> </p>
+              <p>
+                <a href=" <%= education['url'] %> ">
+                  <%= I18n.t("templates.about.educations.link") %>
+                </a>
+              </p>
+            </div>
+          </div>
+        </li>
+      <% end %>
+
+    </ul>
+  </div>
+
+</div>

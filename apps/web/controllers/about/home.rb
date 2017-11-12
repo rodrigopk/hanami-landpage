@@ -6,7 +6,7 @@ module Web
       class Home
         include Web::Action
 
-        expose :companies, :skills
+        expose :companies, :skills, :educations
 
         def initialize(options = {})
           @company_helper = options.fetch(:companies_helper) do
@@ -15,11 +15,15 @@ module Web
           @skill_helper = options.fetch(:skills_helper) do
             ::WebContainer.resolve(:skills_helper)
           end
+          @education_helper = options.fetch(:educations_helper) do
+            ::WebContainer.resolve(:educations_helper)
+          end
         end
 
         def call(_)
           @companies = @company_helper.companies
           @skills = @skill_helper.skills
+          @educations = @education_helper.educations
         end
       end
     end
