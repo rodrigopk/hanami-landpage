@@ -29,14 +29,12 @@ hr {
 }
 
 .row-fluid .span4 {
-    width: 90%;
+    width: 100%;
 }
 
 .row-fluid [class*="span"] {
     display: block;
-    float: left;
     min-height: 30px;
-    margin-left: 2.5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -47,7 +45,7 @@ hr {
 }
 
 .thumbnails {
-    margin-left: -20px;
+    /* margin-left: -20px; */
     list-style: none;
 }
 

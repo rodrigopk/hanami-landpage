@@ -10,6 +10,10 @@
   border-color: transparent;
 }
 
+.skills-grid ul {
+  padding: 0;
+}
+
 .skill-element p {
   width: 50%;
   margin: 0 25%;
