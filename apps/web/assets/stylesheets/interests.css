@@ -10,6 +10,14 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .interest-item {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 .interest-list ul {
   list-style-type: none;
 }

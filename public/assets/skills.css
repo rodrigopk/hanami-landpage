@@ -9,3 +9,8 @@
   background-color: transparent;
   border-color: transparent;
 }
+
+.skill-element p {
+  width: 50%;
+  margin: 0 25%;
+}
