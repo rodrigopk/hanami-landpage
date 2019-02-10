@@ -7,6 +7,9 @@ gem 'hanami-model', '~> 1.3'
 gem 'pg'
 gem 'rake'
 
+gem 'nokogiri', '~> 1.8.5'
+gem 'rack', '~> 2.0.6'
+
 # Translations
 gem 'i18n'
 
