@@ -22,6 +22,7 @@ end
 group :test, :development do
   gem 'byebug'
   gem 'dotenv', '~> 2.0'
+  gem 'timecop'
 end
 
 group :test do

@@ -5,11 +5,16 @@ module Web
     module About
       class Home
         include Web::View
+        def age
+          Landpage::PersonalInfo.age_in_years
+        end
 
-        BIRTH_DATE = Time.parse('07-04-1988')
+        def phone
+          Landpage::PersonalInfo.current_telephone
+        end
 
-        def age_in_years
-          Landpage::Date.difference_in_years(BIRTH_DATE, Time.now)
+        def email
+          Landpage::PersonalInfo.current_email
         end
       end
     end
