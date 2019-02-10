@@ -16,6 +16,18 @@ module Web
         def email
           Landpage::PersonalInfo.current_email
         end
+
+        def github
+          Landpage::NetworkProfiles.github
+        end
+
+        def linkedin
+          Landpage::NetworkProfiles.linkedin
+        end
+
+        def twitter
+          Landpage::NetworkProfiles.twitter
+        end
       end
     end
   end

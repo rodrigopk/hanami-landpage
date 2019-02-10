@@ -8,4 +8,13 @@
 <hr id='interest-list'>
 <%= render partial: 'interest-list' %>
 <hr id='contact-info'>
-<%= render partial: 'contact-info', locals: { phone: phone, email: email } %>
+<%=
+  render partial: 'contact-info',
+  locals: {
+    phone: phone,
+    email: email,
+    github: github,
+    linkedin: linkedin,
+    twitter: twitter,
+  }
+%>
