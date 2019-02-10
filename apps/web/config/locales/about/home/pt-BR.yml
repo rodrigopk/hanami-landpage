@@ -3,7 +3,7 @@ pt-BR:
     about:
       home:
         title: 'Desenvolvedor Ruby'
-        age: '29 anos'
+        age: '%{age} anos'
         location: 'Munique, Alemanha'
         pitch: 'Eu sou um desenvolvedor apaixonado por resolver problemas e em utilizar
           programação como uma ferramenta para tornar a vida das pessoas mais fácil.

@@ -3,7 +3,7 @@ en:
     about:
       home:
         title: 'Ruby developer'
-        age: '29 years'
+        age: '%{age} years'
         location: 'Munich, Germany'
         pitch: 'I am a developer software with a passion for solving problems and
           programming as a tool to make people''s lives easier. I graduated from IFCE

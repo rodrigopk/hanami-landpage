@@ -3,7 +3,7 @@ de:
     about:
       home:
         title: 'Ruby developer'
-        age: '29 Jahre'
+        age: '%{age} Jahre'
         location: 'München, Deutschland'
         pitch: 'Ich bin ein Softwareentwickler mit einer Leidenschaft für die Lösung
           von Problemen und Programmierung als ein Werkzeug, um das Leben der Menschen
