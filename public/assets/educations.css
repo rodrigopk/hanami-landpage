@@ -14,14 +14,21 @@
 
 .edu-title {
   color: #EEB631;
-  width: 75%;
-  height: 100%;
-  float: left;
+}
+
+@media only screen and (min-width: 800px) {
+  .edu-title {
+    width: 75%;
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+  }
 }
 
 .edu-title h4 {
   font-size: 2.2rem;
   text-align: left;
+  margin-top: 0;
 }
 
 .edu-title p {
@@ -30,9 +37,11 @@
   text-align: left;
 }
 
-.edu-description {
-  margin-left: 75%;
-  height: 100%;
+@media only screen and (min-width: 800px) {
+  .edu-description {
+    margin-left: 75%;
+    height: 100%;
+  }
 }
 
 .edu-description p {
