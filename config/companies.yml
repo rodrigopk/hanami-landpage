@@ -1,8 +1,10 @@
 ---
+  - name: 'freework'
+    url: 'https://www.freework.com/'
   - name: 'ifactory'
-    url: 'http://www.ifactory.com.br/'
+    url: 'https://www.ifactory.com.br/'
   - name: 'index'
-    url: 'http://www.indexdigital.com.br/'
+    url: 'https://idx.digital/'
   - name: 'bepid'
     url: 'http://bepid.ifce.edu.br/'
   - name: 'lsbd'
