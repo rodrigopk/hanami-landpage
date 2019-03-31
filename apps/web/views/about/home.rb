@@ -28,6 +28,10 @@ module Web
         def mastodon
           Landpage::NetworkProfiles.mastodon
         end
+
+        def medium
+          Landpage::NetworkProfiles.medium
+        end
       end
     end
   end

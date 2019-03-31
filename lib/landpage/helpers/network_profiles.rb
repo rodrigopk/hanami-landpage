@@ -13,5 +13,9 @@ module Landpage
     def self.mastodon
       ENV['MASTODON_URL']
     end
+
+    def self.medium
+      ENV['MEDIUM_URL']
+    end
   end
 end
