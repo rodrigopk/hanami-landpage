@@ -10,8 +10,12 @@ module Landpage
       ENV['LINKEDIN_URL']
     end
 
-    def self.twitter
-      ENV['TWITTER_URL']
+    def self.mastodon
+      ENV['MASTODON_URL']
+    end
+
+    def self.medium
+      ENV['MEDIUM_URL']
     end
   end
 end

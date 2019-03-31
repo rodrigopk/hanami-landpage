@@ -25,8 +25,12 @@ module Web
           Landpage::NetworkProfiles.linkedin
         end
 
-        def twitter
-          Landpage::NetworkProfiles.twitter
+        def mastodon
+          Landpage::NetworkProfiles.mastodon
+        end
+
+        def medium
+          Landpage::NetworkProfiles.medium
         end
       end
     end

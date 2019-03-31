@@ -15,6 +15,14 @@ zu:
       experiences:
         header: 'Experiences'
         link: 'company website'
+        freework:
+          title: 'Fullstack Developer'
+          period: 'Aug 2017 - Present'
+          name: 'Freework GmbH'
+          description: 'As a fullstack developer, I implemented and mainained the
+          backend infrastructure for applications across multiple platforms,
+          using the Hanami framework. I also worked on the development  of web,
+          mobile and desktop applications using React and React Native.'
         ifactory:
           title: 'Fullstack Developer'
           period: 'Jan 2017 - Jul 2017'
@@ -47,20 +55,22 @@ zu:
             We used C++ and the Qt framework to develop the application.'
       skills:
         header: 'Skills'
+        ruby:
+          description: 'Ruby is my favorite programming language, and I have been
+          working with it professionally and in personal projects for the last 4 years.'
         rails:
           description: 'I have worked with RoR since version 4.2, mostly using it
             to create RESTful APIs.'
-        angular:
-          description: 'I have used angularJS (both v1 and v2) to build client side
-            applications, both professionally and on personal projects.'
-        swift:
-          description: "I have used Swift to program for iOS devices since it's debut\
-            \ on 2014.I have developed 4 apps using it, during my time on BEPiD and\
-            \ afterit's conclusion."
-        cpp:
-          description: "I have used C++ to develop desktop applications both professionally\
-            \ and academically, but haven't done it in a while. Not a stranger to\
-            \ scrubbing bits, though."
+        hanami:
+          description: 'I have been working with hanami in production since v1.1.0.beta1, and
+          also have used it for some of my personal projects (including this page).'
+        javascript:
+          description: 'I have taught myself javascript to use it professionally,
+           and love how flexible the language is. Mostly, I have used javascript
+           with frontend frameworks like react and angularJS.'
+        react:
+          description: 'I have worked with react and react native professionally,
+          but not much on my spare time.'
         git:
           description: "I use git as my version control software for most of my projects,\
             \ and It's also the one I have used the most professionally. I prefer\
