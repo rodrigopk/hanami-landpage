@@ -15,9 +15,9 @@ RSpec.describe Landpage::NetworkProfiles do
     end
   end
 
-  describe '#twitter' do
-    it 'returns the twitter profile' do
-      expect(helper.twitter).to eq(ENV['TWITTER_URL'])
+  describe '#mastodon' do
+    it 'returns the mastodon profile' do
+      expect(helper.mastodon).to eq(ENV['MASTODON_URL'])
     end
   end
 end
