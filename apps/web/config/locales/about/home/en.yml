@@ -5,16 +5,24 @@ en:
         title: 'Ruby developer'
         age: '%{age} years'
         location: 'Munich, Germany'
-        pitch: 'I am a developer software with a passion for solving problems and
-          programming as a tool to make people''s lives easier. I graduated from IFCE
-          - Ceará''s Federal Institute of Technology and Education in 2016, and have
-          been working on software development for mobile and web for two years. I
-          also have some experience developing desktop and embedded applications.
-          Most recently I have been working with Hanami / Ruby development, focusing
-          on the escalable API''s design and designing backend structure.'
+        pitch: 'I’m a software developer with a passion for solving problems and programming
+          as a tool to make people’s lives easier. I graduated from IFCE - Ceará’s
+          Federal Institute of Technology and Education in 2016, and have been working
+          on software development for mobile and web for two years. I also have some
+          experience developing desktop and embedded applications. Most recently I
+          have been working with Hanami/Ruby development, focusing on building escalable
+          API’s and designing backend structure.'
       experiences:
         header: 'Experiences'
         link: 'company website'
+        freework:
+          title: 'Fullstack Developer'
+          period: 'Aug 2017 - Present'
+          name: 'Freework GmbH'
+          description: 'As a fullstack developer, I implemented and mainained the
+          backend infrastructure for applications across multiple platforms,
+          using the Hanami framework. I also worked on the development  of web,
+          mobile and desktop applications using React and React Native.'
         ifactory:
           title: 'Fullstack Developer'
           period: 'Jan 2017 - Jul 2017'
@@ -27,44 +35,46 @@ en:
           period: 'Jul 2016 - Jan 2017'
           name: 'Index Digital'
           description: 'As a RoR backend developer, I design, develop and maintain
-            APIs that feed our customer applications, both web and mobile. I also
-            worked on the development of the frontend web application, using angularJS.'
+            APIs that feed our clients applications, both web and mobile. I also worked
+            on the development of the frontend web aplication, using angularJS.'
         bepid:
           title: 'Software Developer Trainee'
           period: 'Jun 2014 - Dec 2015'
           name: 'BEPiD - Brazilian Education Program iOS Development'
-          description: 'A program aimed at iOS development, using both Objective-C
-            and Swift as development languages.We also received various learning on
-            entrepreneurship, design, project management and presentation skills.
-            During the program, I worked on a total of 5 apps, of which 3 published
+          description: 'A program aimed towards iOS development,using both Objective-C
+            and Swift as development languages.We also received various lectures on
+            entrepreneurship,design,project management and presentation skills. During
+            the program, I worked on a total of 5 apps,of which 3 where published
             on the Appstore.'
         lsbd:
           title: 'Software Developer Trainee'
           period: 'Jan 2013 - Jan 2014'
           name: 'LSBD - UFC'
-          description: 'As a trained software, I worked on a project to develop hardware
+          description: 'As a software trainee, I worked on a project to develop hardware
             diagnosing and monitoring tool, running on windows and various linux distributions.
-            We used C ++ and the Qt framework to develop the application.'
+            We used C++ and the Qt framework to develop the application.'
       skills:
         header: 'Skills'
+        ruby:
+          description: 'Ruby is my favorite programming language, and I have been
+          working with it professionally and in personal projects for the last 4 years.'
         rails:
           description: 'I have worked with RoR since version 4.2, mostly using it
             to create RESTful APIs.'
-        angular:
-          description: 'I have used angularJS (both v1 and v2) to build client side
-            applications, both professionally and on personal projects.'
-        swift:
-          description: "I've used Swift to program for iOS devices since it's debut\
-            \ on 2014. I've developed 4 apps using it, during my time on BEPiD and\
-            \ afterit's conclusion."
-        cpp:
-          description: "I have used C ++ to develop desktop applications both professionally\
-            \ and academically, but have not done it in a while. Not a stranger to\
-            \ scrubbing bits, though."
+        hanami:
+          description: 'I have been working with Hanami in production since v1.1.0.beta1, and
+          also have used it for some of my personal projects (including this page).'
+        javascript:
+          description: 'I have taught myself javascript to use it professionally,
+           and love how flexible the language is. Mostly, I have used javascript
+           with frontend frameworks like react and angularJS.'
+        react:
+          description: 'I have worked with React and React Native professionally,
+          but not much on my spare time.'
         git:
-          description: "I use it as my version control software for most of my projects,\
-            \ and it's also the one I've used the most professionally. I prefer to\
-            \ use it via commandline, for practicality."
+          description: "I use git as my version control software for most of my projects,\
+            \ and It's also the one I have used the most professionally. I prefer\
+            \ using it via commandline, for practicality."
         scrum:
           description: 'I have used used scrum for most of the projects I worked with
             other developers, inprojects with different scopes and teams both large
@@ -73,7 +83,7 @@ en:
         header: 'Education'
         link: 'institution website'
         ifce:
-          title: 'Engineer''s Degree'
+          title: 'Engineer’s Degree'
           field: 'Computer Engineering'
           period: 'Jan 2012 - Dec 2016'
       interests:

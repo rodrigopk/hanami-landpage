@@ -15,8 +15,16 @@ pt-BR:
       experiences:
         header: 'Experiências'
         link: 'site da empresa'
+        freework:
+          title: 'Desenvolvedor Fullstack'
+          period: 'Ago 2017 - Present'
+          name: 'Freework GmbH'
+          description: 'Como um desenvolvedor fullstack, eu implementei e mantive o
+          backend para aplicações em múltiplas plataformas, usando o framework Hanami.
+          Eu também trabalhei no desenvolvimento de aplicações web, mobile e desktop
+          usando React e React Native.'
         ifactory:
-          title: 'Desenvolvedor fullstack'
+          title: 'Desenvolvedor Fullstack'
           period: 'Jan 2017 - Jul 2017'
           name: 'iFactory Solutions'
           description: 'Como um desenvolvedor fullstack, eu implementei integrações
@@ -48,20 +56,21 @@ pt-BR:
             linux. Nós utilizamos C++ e o framework Qt para o desenvolvimento da aplicação.'
       skills:
         header: 'Habilidades'
+        ruby:
+          description: 'Ruby é a minha linguagem de programação favorita, e eu tenho
+           trabalhado com ela profissionalmente e em projetos pessoais por 4 anos.'
         rails:
           description: 'Eu tenho trabalhado com RoR desde a versão 4.2, na maior parte
             para a criação de APIs RESTful.'
-        angular:
-          description: 'Eu utilizei AngularJS desde a versão 1 para construir aplicações
-            web, tanto profissionalmente quanto em projetos pessoais.'
-        swift:
-          description: "Eu utilizei Swift para desenvolver para iOS desde 2014. Desenvolvi\
-            \ 5 apps utilizando a linguagem durante o meu tempo no BEPiD e após a\
-            \ sua conclusão."
-        cpp:
-          description: "Eu utilizei C++ para desenvolvimento em aplicações desktop\
-            \ e embarcadas em âmbito acadêmico e pessoal, porém não utilizo ela tem\
-            \ um tempo."
+        hanami:
+          description: 'Eu tenho trabalhado com Hanami em produção desde a versão
+          v1.1.0.beta1, e também em alguns projetos pessoais (incluindo essa página)'
+        javascript:
+          description: 'Eu aprendi javascript por conta própria pro motivos profissionais,
+          e adoro a flexibilidade que a linguagem oferece.'
+        react:
+          description: 'Eu tenho trabalhado com React e React Native profissionalmente,
+          mas não muito no meu tempo livre.'
         git:
           description: "Eu utilizo git para o controle de versão da maioria dos meus\
             \ projetos, tanto pessoais quanto profissionais. "
@@ -93,7 +102,7 @@ pt-BR:
         traveling:
           title: 'Viagens'
         crypto:
-          title: 'Cryptomoedas'
+          title: 'Criptomoedas'
         beer:
           title: 'Cerveja'
       contact:
