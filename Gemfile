@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+ruby '2.4.4'
 gem 'hanami', '~> 1.3'
 gem 'hanami-model', '~> 1.3'
 gem 'pg'
