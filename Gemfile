@@ -9,7 +9,7 @@ gem 'pg'
 gem 'rake'
 
 gem 'nokogiri', '~> 1.8.5'
-gem 'rack', '~> 2.0.6'
+gem 'rack', '~> 2.1.4'
 
 # Translations
 gem 'i18n'
